@@ -1,0 +1,50 @@
+body{
+    background: #f5f5f5;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+p,h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+    font-weight: 500; 
+    margin: 3% 0;   
+}
+.bx-logo{
+    width: 50%;
+    margin: 0 auto;
+}
+.btn{
+    margin: 3% 0;
+}
+figure.brand img{
+    width: 69%;
+}
+.col-md-5{
+    text-align: center;
+    padding: 3% 3% 0;
+}
+
+@media screen and (min-width: 700px){
+
+    .col-md-5{
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -webkit-box-flex;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        -ms-align-items: flex-start;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        text-align: center;
+        padding: 3% 3% 0;
+    }
+
+}
